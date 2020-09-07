@@ -5,12 +5,14 @@ html, body, h1 {
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	box-sizing: border-box;
+        position: relative;
+        overflow: hidden;
 }
 
 #app {
 	background: #0a0a0a;
 	height: 100vh;
-	width: 100%;
+        width: 100vw;
 	margin: 0;
 	padding: 0;
 	display: flex;
@@ -18,7 +20,7 @@ html, body, h1 {
 	justify-content: center;
 	background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(0, 0, 0, 0.9)), repeating-linear-gradient(0, transparent, transparent 3px, black 1px, black 1px), url("../cover/cover.JPG");
 	background-size: cover;
-	background-position: center;
+	background-position: center center;
 	z-index: 1;
 	overflow: hidden;
 }
@@ -283,7 +285,7 @@ html, body, h1 {
 .container {
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0 0;
+  padding: 3% 0 0;
   overflow: hidden;
 }
 
@@ -336,7 +338,7 @@ html, body, h1 {
 }
 
 .pricing-header-spotify {
-    font-size: 30px;
+    font-size: 2vw;
     color: #7cf578;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     font-style: italic;
@@ -353,7 +355,7 @@ html, body, h1 {
 }
 
 .pricing-header-youtube {
-    font-size: 30px;
+    font-size: 2vw;
     color: #ff7d7d;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     font-style: italic;
@@ -370,7 +372,7 @@ html, body, h1 {
 }
 
 .pricing-header-itunes {
-    font-size: 30px;
+    font-size: 2vw;
     color: #7063ff;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     font-style: italic;
@@ -387,7 +389,7 @@ html, body, h1 {
 }
 
 .pricing-header-amazon {
-    font-size: 30px;
+    font-size: 2vw;
     color: #78e2ff;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     font-style: italic;
@@ -408,7 +410,7 @@ html, body, h1 {
     border-bottom: 5px solid;
     border-right: 5px solid;
     flex-basis: 100%;
-    padding: 40px 100px;
+    padding: 2% 5%;
   }
 }
 
@@ -417,8 +419,8 @@ html, body, h1 {
   border-radius: 10px;
   color: #06e5fc;
   display: inline-block;
-  margin: 25px 0;
-  padding: 15px 35px;
+  margin: .5% 0;
+  padding: 5% 5%;
   text-decoration: none;
   transition: all 150ms ease-in-out;
 }
@@ -429,10 +431,11 @@ html, body, h1 {
 }
 
 
-/* polaroid */
 * {
   box-sizing: border-box;
 }
+
+/* polaroid 
 
 .polaroid_wrapper {
   width: 100%;
@@ -535,6 +538,8 @@ html, body, h1 {
   transition: all 0.35s;
 }
 
+fine polaroid */
+
 /* socials */
 .social-text{
     color: #fff;
@@ -547,7 +552,7 @@ html, body, h1 {
     padding: 15px 5px;
 }
 .social{
-  height: 50px;
+  height: 90%;
   display: inline-block;
   overflow: hidden;
   margin: auto;
@@ -567,15 +572,3 @@ html, body, h1 {
 .social:hover{
   opacity: 0.8;
 }
-
-/* full size background img in mobile
-html {
-    background: url(image url) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 100%;
-    overflow: hidden;
-}
-*/
