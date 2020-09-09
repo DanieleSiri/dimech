@@ -17,7 +17,7 @@ html, body, h1 {
     padding: 0;
     display: flex;
     flex-direction: column;
-    background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(0, 0, 0, 0.9)), repeating-linear-gradient(0, transparent, transparent 3px, black 1px, black 1px), url("../cover/mobile.JPG");
+    background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(0, 0, 0, 0.9)), repeating-linear-gradient(0, transparent, transparent 3px, black 1px, black 1px), url("../cover/cover.JPG");
     background-size: cover;
     background-position: center center;
     z-index: 1;
@@ -302,17 +302,17 @@ html, body, h1 {
     position: fixed;
 }
 
-.pricing-table {
+.link-table {
     display: flex;
     flex-direction: column;
 }
 
-.pricing-table * {
+.link-table * {
   text-align: center;
   text-transform: uppercase;
 }
 
-.pricing-plan {
+.link-subtable {
     margin: 1%;
     border: 5px solid;
     padding: 10px;
@@ -322,20 +322,20 @@ html, body, h1 {
     opacity: 0.5;
 }
 
-.pricing-plan:hover {
+.link-subtable:hover {
     filter: none;
     transform: scale(1.1, 1.1) rotate(0deg) !important;
     transition: all 0.35s;
     opacity: 1;
 }
 
-.pricing-img {
+.link-img {
     margin-bottom: 2%;
     max-width: 100%;
     max-height: 20%;
 }
 
-.pricing-header {
+.link-header {
     font-size: 2vw;
     font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
     font-style: italic;
@@ -398,7 +398,7 @@ html, body, h1 {
 }
 
 @media (min-width: 100px) {
-  .pricing-plan {
+  .link-subtable {
     border-bottom: 5px solid;
     border-right: 5px solid;
     flex-basis: 100%;
@@ -406,7 +406,7 @@ html, body, h1 {
   }
 }
 
-.pricing-button {
+.link-button {
   border: 1px solid #9dd1ff;
   border-radius: 10px;
   color: #06e5fc;
@@ -417,8 +417,8 @@ html, body, h1 {
   transition: all 150ms ease-in-out;
 }
 
-.pricing-button:hover,
-.pricing-button:focus {
+.link-button:hover,
+.link-button:focus {
   background-color: #e1f1ff;
 }
 
