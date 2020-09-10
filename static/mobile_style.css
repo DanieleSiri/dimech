@@ -27,8 +27,8 @@ html, body, h1 {
 
 #wrapper {
     text-align: center;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    margin-top: 5vh;
+    margin-bottom: 8vh;
 }
 
 .sub {
@@ -288,9 +288,10 @@ html, body, h1 {
     max-width: 100%;
     margin: 0 auto;
     overflow: hidden;
-    margin-left: 20vh;
+    margin-left: 40vw;
     width: 100vh;
     padding: 0px;
+	max-height: 80vh;
 }
 
 .panel {
@@ -316,8 +317,8 @@ html, body, h1 {
     margin: 1%;
     border: 5px solid;
     padding: 10px;
-    max-height: 20%;
-    max-width: 23%;
+    max-height: 15%;
+    max-width: 20%;
     filter: grayscale(100%);
     opacity: 0.5;
 }
@@ -431,7 +432,7 @@ html, body, h1 {
 .social-text{
     color: #fff;
     font-family: Brush Script MT, cursive;
-    font-size: 60px;
+    font-size: 50px;
     font-style: normal;
     font-variant: normal;
     font-weight: 700;
@@ -446,16 +447,16 @@ html, body, h1 {
 }
 .insta {
     padding: 5px;
-    width: 80px;
+    width: 7vw;
 }
 .yt {
     padding: 5px;
-    width: 95px;
-    height: 80px;
+    width: 8vw;
+    height: 7vw;
 }
 .fb {
     padding: 5px;
-    width: 80px;
+    width: 7vw;
 }
 .social:hover{
   opacity: 0.8;
@@ -466,4 +467,3 @@ html, body, h1 {
     position: fixed;
     bottom: 0px;
 }
-
