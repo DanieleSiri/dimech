@@ -81,7 +81,7 @@ PLATFORMS
 DEPENDENCIES
   jekyll (~> 4.1.1)
   nokogiri
-  rack (~> 2.0.1)
+  rack (~> 2.1.4)
   rspec
 
 BUNDLED WITH
