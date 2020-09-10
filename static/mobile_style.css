@@ -27,7 +27,7 @@ html, body, h1 {
 
 #wrapper {
     text-align: center;
-    margin-top: 10vh;
+    margin-top: 3vh;
     margin-bottom: 3vh;
 }
 
@@ -466,3 +466,4 @@ html, body, h1 {
     position: fixed;
     bottom: 0px;
 }
+
