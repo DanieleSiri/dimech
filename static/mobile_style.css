@@ -449,7 +449,7 @@ html, body, h1 {
 }
 
 /* small devices */
-@media only screen and (max-device-width: 550px){
+@media only screen and (max-device-height: 650px){
     #wrapper {
         margin-top: 2vh;
         margin-bottom: 2vh;
