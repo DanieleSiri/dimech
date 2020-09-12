@@ -434,7 +434,8 @@ html, body, h1 {
 .link-button {
   border: 1px solid #9dd1ff;
   border-radius: 10px;
-  color: #06e5fc;
+  color: #9bf8ec;
+  font-weight: bold;
   display: inline-block;
   margin: .5% 0;
   padding: 5% 5%;
