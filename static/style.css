@@ -319,9 +319,10 @@ html, body, h1 {
   border: 5px solid;
   padding: 10px;
   max-height: 20%;
-  max-width: 23%;
-  filter: grayscale(100%);
-  opacity: 0.5;
+  max-width: 30vw;
+  filter: grayscale(60%);
+  opacity: 0.7;
+  justify-content: center;
 }
 
 .link-subtable:hover {
@@ -331,10 +332,28 @@ html, body, h1 {
   opacity: 1;
 }
 
+#spotify-rect:hover {
+	border: 5px solid #7cf578;
+}
+
+#youtube-rect:hover {
+	border: 5px solid #ff3d3d;
+}
+
+#itunes-rect:hover {
+	border: 5px solid #7063ff;
+}
+
+#amazon-rect:hover {
+	border: 5px solid #78e2ff;
+}
+
 .link-img {
   margin-bottom: 2%;
   max-width: 100%;
-  max-height: 20%;
+  max-height: 40%;
+  height: 40%;
+  width: auto;
 }
 
 .link-header {
@@ -399,6 +418,10 @@ html, body, h1 {
                  0px 0px 6px rgba(255,255,255,.2);
 }
 
+#amazon {
+	border: #78e2ff;
+}
+
 @media (min-width: 100px) {
   .link-subtable {
     border-bottom: 5px solid;
@@ -430,37 +453,32 @@ html, body, h1 {
 }
 
 /* socials */
-.social-text{
-    color: #fff;
-    font-family: Brush Script MT, cursive;
-    font-size: 30px;
-    font-style: normal;
-    font-variant: normal;
-    font-weight: 700;
-    line-height: 15.4px;
-    padding: 15px 5px;
-}
 .social{
-  height: 90%;
-  display: inline-block;
-  overflow: hidden;
-  margin: auto;
+	opacity: 0.6;
+	height: 90%;
+	display: inline-block;
+	overflow: hidden;
+	margin: auto;
 }
 .insta {
-  padding: 5px;
-  width: 50px;
+	background-color: #fff;
+	border-radius: 30%;
+	padding: 5px;
+	width: auto;
+	max-height: 50px;
 }
 .yt {
-  padding: 5px;
-  width: 65px;
-  height: 50px;
+	padding: 5px;
+	width: auto;
+	max-height: 50px;
 }
 .fb {
-  padding: 5px;
-  width: 50px;
+	padding: 5px;
+	width: auto;
+	max-height: 50px;
 }
 .social:hover{
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 .social-div {
