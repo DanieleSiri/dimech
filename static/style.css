@@ -18,7 +18,7 @@ html, body, h1 {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(0, 0, 0, 0.9)), repeating-linear-gradient(0, transparent, transparent 3px, black 1px, black 1px), url("../cover/cover.JPG");
+	background: linear-gradient(rgba(10, 10, 10, 0.2), rgba(0, 0, 0, 0.8)), repeating-linear-gradient(0, transparent, transparent 3px, black 1px, black 1px), url("../cover/cover.JPG");
 	background-size: cover;
 	background-position: center center;
 	z-index: 1;
@@ -328,24 +328,54 @@ html, body, h1 {
   opacity: 1;
 }
 
+#spotify-rect {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
 #spotify-rect:hover {
 	border: 5px solid #7cf578;
+}
+
+#youtube-rect {
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 #youtube-rect:hover {
 	border: 5px solid #ff3d3d;
 }
 
+#itunes-rect {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
 #itunes-rect:hover {
 	border: 5px solid #7063ff;
+}
+
+#amazon-rect {
+    grid-column: 1/2;
+    grid-row: 2/3;
 }
 
 #amazon-rect:hover {
 	border: 5px solid #78e2ff;
 }
 
+#tiktok-rect {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
 #tiktok-rect:hover {
         border: 5px solid #fa44ae;
+}
+
+#tidal-rect {
+    grid-column: 3/4;
+    grid-row: 1/2;
 }
 
 #tidal-rect:hover {
