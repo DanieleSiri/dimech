@@ -353,6 +353,7 @@ html, body, h1 {
 #spotify-rect {
     grid-column: 1/2;
     grid-row: 2/3;
+    background-color: rgba(124, 245, 120, 0.3);
 }
 
 #spotify-rect:hover {
@@ -361,47 +362,52 @@ html, body, h1 {
 
 #youtube-rect {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 1/2;
+    background-color: rgba(255, 61, 61, 0.3);
 }
 
 #youtube-rect:hover {
-	border: 5px solid #ff3d3d;
+    border: 5px solid #ff3d3d;
 }
 
 #itunes-rect {
     grid-column: 2/3;
-    grid-row: 3/4;
+    grid-row: 2/3;
+    background-color: rgba(112, 99, 255, 0.3);
 }
 
 #itunes-rect:hover {
-	border: 5px solid #7063ff;
+    border: 5px solid #7063ff;
 }
 
 #amazon-rect {
     grid-column: 1/2;
     grid-row: 3/4;
+    opacity: 0.4;
 }
 
 #amazon-rect:hover {
-	border: 5px solid #78e2ff;
+    border: 5px solid #78e2ff;
 }
 
-tiktok-rect {
-    grid-column: 1/2;
-    grid-row: 1/2;
+#tiktok-rect {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    opacity: 0.4;
 }
 
 #tiktok-rect:hover {
-        border: 5px solid #fa44ae;
+    border: 5px solid #fa44ae;
 }
 
 #tidal-rect {
-    grid-column: 2/3;
+    grid-column: 1/2;
     grid-row: 1/2;
+    opacity: 0.4;
 }
 
 #tidal-rect:hover {
-        border: 5px solid #c4c4c4;
+    border: 5px solid #c4c4c4;
 }
 
 .link-img {
@@ -514,9 +520,9 @@ tiktok-rect {
 }
 
 .link-button {
-  border: 1px solid #9dd1ff;
+  border: 1px solid #22fffd;
   border-radius: 10px;
-  color: #9bf8ec;
+  color: #22fffd;
   font-weight: bold;
   display: inline-block;
   margin: 0 0;
@@ -527,7 +533,7 @@ tiktok-rect {
 
 .link-button:hover,
 .link-button:focus {
-  background-color: #e1f1ff;
+  background-color: rgba(33, 26, 255, 0.6);
 }
 
 * {
