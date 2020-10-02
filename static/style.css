@@ -378,7 +378,7 @@ html, body, h1 {
 #amazon-rect {
     grid-column: 1/2;
     grid-row: 2/3;
-    opacity: 0.4;
+    background-color: rgba(120, 226, 255, 0.3);
 }
 
 #amazon-rect:hover {
