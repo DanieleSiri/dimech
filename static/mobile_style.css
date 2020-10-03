@@ -403,7 +403,7 @@ html, body, h1 {
 #tidal-rect {
     grid-column: 1/2;
     grid-row: 1/2;
-    opacity: 0.4;
+    background-color: rgba(196, 196, 196, 0.3);
 }
 
 #tidal-rect:hover {
